@@ -1,8 +1,8 @@
 {
 	"name":"xin/container",
-	"description":"暂时没想好这个库要干啥",
+	"description":"严格基于PSR11规范实现基础的容器和依赖注入",
 	"type":"library",
-	"version":"2.0.0",
+	"version":"2.0.1",
 	"authors":[
 		{
 			"name":"晋",
@@ -24,7 +24,7 @@
 		"ext-ctype":"*",
 		"ext-libxml":"*",
 		"ext-simplexml":"*",
-		"psr/container": "^1.0",
-		"xin/helper": "^1.0"
+		"psr/container":"^1.0",
+		"xin/helper":"^1.0"
 	}
 }
