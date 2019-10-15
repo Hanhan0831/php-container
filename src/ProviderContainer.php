@@ -27,7 +27,9 @@ class ProviderContainer extends Container{
 	 * @param array $providers
 	 */
 	public function __construct(array $providers = []){
-		$this->setProviders($providers);
+		if(!empty($providers)){
+			$this->setProviders($providers);
+		}
 	}
 
 }
